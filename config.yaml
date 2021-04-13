@@ -1,55 +1,516 @@
 light_color_list:
-  - [255, 109, 0]
-  - [255, 115, 0]
-  - [255, 121, 0]
-  - [255, 126, 0]
-  - [255, 131, 0]
-  - [255, 137, 18]
-  - [255, 142, 33]
-  - [255, 147, 44]
-  - [255, 152, 54]
-  - [255, 157, 63]
-  - [255, 161, 72]
-  - [255, 165, 79]
-  - [255, 169, 87]
-  - [255, 173, 94]
-  - [255, 177, 101]
-  - [255, 180, 107]
-  - [255, 184, 114]
-  - [255, 187, 120]
-  - [255, 190, 126]
-  - [255, 193, 132]
-  - [255, 196, 137]
-  - [255, 199, 143]
-  - [255, 201, 148]
-  - [255, 204, 153]
-  - [255, 206, 159]
-  - [255, 209, 163]
-  - [255, 211, 168]
-  - [255, 213, 173]
-  - [255, 215, 177]
-  - [255, 217, 182]
-  - [255, 219, 186]
-  - [255, 221, 190]
-  - [255, 223, 194]
-  - [255, 225, 198]
-  - [255, 227, 202]
-  - [255, 228, 206]
-  - [255, 230, 210]
-  - [255, 232, 213]
-  - [255, 233, 217]
-  - [255, 235, 220]
-  - [255, 238, 222]
-  - [255, 236, 224]
-  - [255, 239, 225]
-  - [255, 238, 227]
-  - [255, 240, 228]
-  - [255, 239, 230]
-  - [255, 241, 231]
-  - [255, 240, 233]
-  - [255, 243, 234]
-  - [255, 242, 236]
-  - [255, 244, 237]
+  -
+      color_temp: 1000 K
+      R: 1
+      G: 0.03
+      B: 0
+  -
+      color_temp: 1000 K
+      R: 1
+      G: 0.04
+      B: 0
+  -
+      color_temp: 1100 K
+      R: 1
+      G: 0.06
+      B: 0
+  -
+      color_temp: 1100 K
+      R: 1
+      G: 0.06
+      B: 0
+  -
+      color_temp: 1200 K
+      R: 1
+      G: 0.08
+      B: 0
+  -
+      color_temp: 1200 K
+      R: 1
+      G: 0.09
+      B: 0
+  -
+      color_temp: 1300 K
+      R: 1
+      G: 0.11
+      B: 0
+  -
+      color_temp: 1300 K
+      R: 1
+      G: 0.11
+      B: 0
+  -
+      color_temp: 1400 K
+      R: 1
+      G: 0.13
+      B: 0
+  -
+      color_temp: 1400 K
+      R: 1
+      G: 0.13
+      B: 0
+  -
+      color_temp: 1500 K
+      R: 1
+      G: 0.16
+      B: 0
+  -
+      color_temp: 1500 K
+      R: 1
+      G: 0.15
+      B: 0
+  -
+      color_temp: 1600 K
+      R: 1
+      G: 0.18
+      B: 0
+  -
+      color_temp: 1600 K
+      R: 1
+      G: 0.17
+      B: 0
+  -
+      color_temp: 1700 K
+      R: 1
+      G: 0.20
+      B: 0
+  -
+      color_temp: 1700 K
+      R: 1
+      G: 0.19
+      B: 0
+  -
+      color_temp: 1800 K
+      R: 1
+      G: 0.22
+      B: 0
+  -
+      color_temp: 1800 K
+      R: 1
+      G: 0.21
+      B: 0
+  -
+      color_temp: 1900 K
+      R: 1
+      G: 0.24
+      B: 0
+  -
+      color_temp: 1900 K
+      R: 1
+      G: 0.23
+      B: 0
+  -
+      color_temp: 2000 K
+      R: 1
+      G: 0.26
+      B: 0
+  -
+      color_temp: 2000 K
+      R: 1
+      G: 0.25
+      B: 0.01
+  -
+      color_temp: 2100 K
+      R: 1
+      G: 0.29
+      B: 0.01
+  -
+      color_temp: 2100 K
+      R: 1
+      G: 0.27
+      B: 0.02
+  -
+      color_temp: 2200 K
+      R: 1
+      G: 0.31
+      B: 0.02
+  -
+      color_temp: 2200 K
+      R: 1
+      G: 0.29
+      B: 0.03
+  -
+      color_temp: 2300 K
+      R: 1
+      G: 0.34
+      B: 0.03
+  -
+      color_temp: 2300 K
+      R: 1
+      G: 0.31
+      B: 0.04
+  -
+      color_temp: 2400 K
+      R: 1
+      G: 0.36
+      B: 0.05
+  -
+      color_temp: 2400 K
+      R: 1
+      G: 0.34
+      B: 0.05
+  -
+      color_temp: 2500 K
+      R: 1
+      G: 0.38
+      B: 0.06
+  -
+      color_temp: 2500 K
+      R: 1
+      G: 0.36
+      B: 0.06
+  -
+      color_temp: 2600 K
+      R: 1
+      G: 0.40
+      B: 0.07
+  -
+      color_temp: 2600 K
+      R: 1
+      G: 0.38
+      B: 0.08
+  -
+      color_temp: 2700 K
+      R: 1
+      G: 0.43
+      B: 0.09
+  -
+      color_temp: 2700 K
+      R: 1
+      G: 0.40
+      B: 0.10
+  -
+      color_temp: 2800 K
+      R: 1
+      G: 0.45
+      B: 0.11
+  -
+      color_temp: 2800 K
+      R: 1
+      G: 0.42
+      B: 0.11
+  -
+      color_temp: 2900 K
+      R: 1
+      G: 0.47
+      B: 0.12
+  -
+      color_temp: 2900 K
+      R: 1
+      G: 0.44
+      B: 0.13
+  -
+      color_temp: 3000 K
+      R: 1
+      G: 0.49
+      B: 0.14
+  -
+      color_temp: 3000 K
+      R: 1
+      G: 0.46
+      B: 0.15
+  -
+      color_temp: 3100 K
+      R: 1
+      G: 0.51
+      B: 0.16
+  -
+      color_temp: 3100 K
+      R: 1
+      G: 0.48
+      B: 0.17
+  -
+      color_temp: 3200 K
+      R: 1
+      G: 0.53
+      B: 0.18
+  -
+      color_temp: 3200 K
+      R: 1
+      G: 0.50
+      B: 0.19
+  -
+      color_temp: 3300 K
+      R: 1
+      G: 0.54
+      B: 0.20
+  -
+      color_temp: 3300 K
+      R: 1
+      G: 0.52
+      B: 0.21
+  -
+      color_temp: 3400 K
+      R: 1
+      G: 0.56
+      B: 0.22
+  -
+      color_temp: 3400 K
+      R: 1
+      G: 0.53
+      B: 0.23
+  -
+      color_temp: 3500 K
+      R: 1
+      G: 0.58
+      B: 0.24
+  -
+      color_temp: 3500 K
+      R: 1
+      G: 0.55
+      B: 0.25
+  -
+      color_temp: 3600 K
+      R: 1
+      G: 0.60
+      B: 0.27
+  -
+      color_temp: 3600 K
+      R: 1
+      G: 0.57
+      B: 0.27
+  -
+      color_temp: 3700 K
+      R: 1
+      G: 0.62
+      B: 0.29
+  -
+      color_temp: 3700 K
+      R: 1
+      G: 0.59
+      B: 0.30
+  -
+      color_temp: 3800 K
+      R: 1
+      G: 0.63
+      B: 0.31
+  -
+      color_temp: 3800 K
+      R: 1
+      G: 0.60
+      B: 0.32
+  -
+      color_temp: 3900 K
+      R: 1
+      G: 0.65
+      B: 0.33
+  -
+      color_temp: 3900 K
+      R: 1
+      G: 0.62
+      B: 0.34
+  -
+      color_temp: 4000 K
+      R: 1
+      G: 0.66
+      B: 0.36
+  -
+      color_temp: 4000 K
+      R: 1
+      G: 0.64
+      B: 0.37
+  -
+      color_temp: 4100 K
+      R: 1
+      G: 0.68
+      B: 0.38
+  -
+      color_temp: 4100 K
+      R: 1
+      G: 0.65
+      B: 0.39
+  -
+      color_temp: 4200 K
+      R: 1
+      G: 0.69
+      B: 0.41
+  -
+      color_temp: 4200 K
+      R: 1
+      G: 0.67
+      B: 0.42
+  -
+      color_temp: 4300 K
+      R: 1
+      G: 0.71
+      B: 0.43
+  -
+      color_temp: 4300 K
+      R: 1
+      G: 0.68
+      B: 0.44
+  -
+      color_temp: 4400 K
+      R: 1
+      G: 0.72
+      B: 0.46
+  -
+      color_temp: 4400 K
+      R: 1
+      G: 0.70
+      B: 0.47
+  -
+      color_temp: 4500 K
+      R: 1
+      G: 0.74
+      B: 0.48
+  -
+      color_temp: 4500 K
+      R: 1
+      G: 0.71
+      B: 0.49
+  -
+      color_temp: 4600 K
+      R: 1
+      G: 0.75
+      B: 0.51
+  -
+      color_temp: 4600 K
+      R: 1
+      G: 0.73
+      B: 0.52
+  -
+      color_temp: 4700 K
+      R: 1
+      G: 0.76
+      B: 0.53
+  -
+      color_temp: 4700 K
+      R: 1
+      G: 0.74
+      B: 0.54
+  -
+      color_temp: 4800 K
+      R: 1
+      G: 0.78
+      B: 0.55
+  -
+      color_temp: 4800 K
+      R: 1
+      G: 0.75
+      B: 0.57
+  -
+      color_temp: 4900 K
+      R: 1
+      G: 0.79
+      B: 0.58
+  -
+      color_temp: 4900 K
+      R: 1
+      G: 0.77
+      B: 0.59
+  -
+      color_temp: 5000 K
+      R: 1
+      G: 0.80
+      B: 0.60
+  -
+      color_temp: 5000 K
+      R: 1
+      G: 0.78
+      B: 0.62
+  -
+      color_temp: 5100 K
+      R: 1
+      G: 0.81
+      B: 0.63
+  -
+      color_temp: 5100 K
+      R: 1
+      G: 0.79
+      B: 0.64
+  -
+      color_temp: 5200 K
+      R: 1
+      G: 0.82
+      B: 0.65
+  -
+      color_temp: 5200 K
+      R: 1
+      G: 0.80
+      B: 0.67
+  -
+      color_temp: 5300 K
+      R: 1
+      G: 0.83
+      B: 0.68
+  -
+      color_temp: 5300 K
+      R: 1
+      G: 0.82
+      B: 0.69
+  -
+      color_temp: 5400 K
+      R: 1
+      G: 0.84
+      B: 0.70
+  -
+      color_temp: 5400 K
+      R: 1
+      G: 0.83
+      B: 0.72
+  -
+      color_temp: 5500 K
+      R: 1
+      G: 0.85
+      B: 0.73
+  -
+      color_temp: 5500 K
+      R: 1
+      G: 0.84
+      B: 0.74
+  -
+      color_temp: 5600 K
+      R: 1
+      G: 0.86
+      B: 0.75
+  -
+      color_temp: 5600 K
+      R: 1
+      G: 0.85
+      B: 0.77
+  -
+      color_temp: 5700 K
+      R: 1
+      G: 0.87
+      B: 0.78
+  -
+      color_temp: 5700 K
+      R: 1
+      G: 0.86
+      B: 0.79
+  -
+      color_temp: 5800 K
+      R: 1
+      G: 0.88
+      B: 0.80
+  -
+      color_temp: 5800 K
+      R: 1
+      G: 0.87
+      B: 0.82
+  -
+      color_temp: 5900 K
+      R: 1
+      G: 0.89
+      B: 0.82
+  -
+      color_temp: 5900 K
+      R: 1
+      G: 0.88
+      B: 0.84
+  -
+      color_temp: 6000 K
+      R: 1
+      G: 0.90
+      B: 0.85
+  -
+      color_temp: 6000 K
+      R: 1
+      G: 0.90
+      B: 0.87
 geocode:
   - latitude: -1.997179
   - longitude: -54.861552
+
+time_shift: 0
